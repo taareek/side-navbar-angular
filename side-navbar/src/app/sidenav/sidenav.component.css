@@ -4,7 +4,7 @@
     position: fixed;
     z-index: 1;
     top: 0;
-    width:7.5rem;
+    width:6.5rem;
     height: 100vh;
     box-shadow: 0.053rem 0.123rem 0 rgba(6, 22, 163, 0.816);
 
@@ -18,22 +18,22 @@
         .logo{
             background: white;
             text-align: center;
-            width: 6rem;
-            min-width: 6rem;
+            width: 4.75rem;
+            min-width: 4.75rem;
             border-radius: 0.313rem;
-            padding: 0.313rem;
+            padding: 0.213rem;
             font-size: 24px;
             font-weight: 900;
             cursor: pointer;
             border: none;
-            color: rgb(121, 10, 10);
+            color: rgb(124, 9, 9);
         }
     
         .logo-text{
-            margin-left: 2.5rem;
-            font-size: 24px;
-            font-weight: 700;
-            color: rgb(151, 9, 42);
+            margin-left: 1.35rem;
+            font-size: 20px;
+            font-weight: 600;
+            color: whitesmoke;
         }
     
         .btn-close{
@@ -58,7 +58,7 @@
 
 
 .sidenav-collapsed{
-    width: 16.5rem;
+    width: 16.5625rem;
 }
 
 /* .sidenav-nav{
@@ -103,6 +103,7 @@
             min-width: 2rem;
             margin: 0 0.5rem;
             text-align: center;
+            color:white;
         }
     
         .sidenav-link-text{
@@ -111,11 +112,27 @@
     }
 
     .sidenav-nav-item:hover{
-        color:aliceblue;
+        color:rgb(4, 4, 90);
+
+        /* .sidenav-nav-icon{
+            background-color: rgba(169, 34, 34, 0.866);
+            color:rgb(4, 4, 90);
+        } */
 
         .sidenav-nav-link{
-            background-color: aliceblue;
+            background-color:rgba(169, 34, 34, 0.866);
             color:rgb(4, 4, 90);
         }
+    }
+}
+
+.active{
+    background-color:rgba(169, 34, 34, 0.866);
+
+    .sidenav-link-icon{
+        color:rgb(4, 4, 90);
+    }
+    .sidenav-link-text{
+        color:rgb(4, 4, 90);
     }
 }
