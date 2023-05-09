@@ -22,7 +22,18 @@ export const navbarData = [
     {
         routeLink: 'coupens',
         icon: 'fal fa-tags',
-        label: 'Coupens'
+        label: 'Coupens',
+        items: [
+            {
+                routeLink: 'coupens/list',
+                label: 'Coupens List'
+            },
+
+            {
+                routeLink: 'coupens/create',
+                label: 'Create Coupens'
+            },
+        ]
     },
 
     {

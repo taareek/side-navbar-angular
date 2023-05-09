@@ -35,6 +35,7 @@ export class SidenavComponent implements OnInit{
   collapsed = false;
   screenWidth = 0;
   navData = navbarData;
+  public innerWidth: any;
 
   @HostListener('window:resize', ['$event'])
   onResize(event:any){
@@ -48,6 +49,7 @@ export class SidenavComponent implements OnInit{
   ngOnInit(): void{
     // console.log("clicked");
     this.screenWidth = window.innerWidth;
+    // this.innerWidth = window.innerWidth;
   }
 
   toggleClass(): void{
